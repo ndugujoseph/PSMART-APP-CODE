@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.psmart">
+
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PSMaRT"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup"
+        tools:targetApi="m">
+        <activity
+            android:name=".ReportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterHomeStudent"
+            android:exported="false"
+            android:theme="@style/Theme.PSMaRT.NoActionBar" />
+        <activity
+            android:name=".RegisterHomeTeacher"
+            android:exported="false"
+            android:theme="@style/Theme.PSMaRT.NoActionBar" />
+        <activity
+            android:name=".RegisterWelcome"
+            android:exported="false"
+            android:theme="@style/Theme.PSMaRT.NoActionBar" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PSMaRT.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".splash_screen_scan"
+            android:exported="true"
+            android:theme="@style/Theme.PSMaRT.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ScanFaceActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PSMaRT.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".DisplayActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".FingerPrintRegisterActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PSMaRT.NoActionBar" />
+        <activity
+            android:name=".ScanFingerPrintActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PSMaRT.NoActionBar" />
+        <activity
+            android:name=".splash_screen"
+            android:exported="true"
+            android:theme="@style/Theme.PSMaRT.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".NewFaceActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PSMaRT.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ui.login.ForgotPasswordActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PSMaRT.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PSMaRT.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PSMaRT.NoActionBar"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

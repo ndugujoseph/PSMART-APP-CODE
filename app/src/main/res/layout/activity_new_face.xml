@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".NewFaceActivity">
+
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="246dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/ic_baseline_image_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btCapturePhoto"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:text="@string/take_photo"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btOpenGallery"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:background="@color/black"
+        android:text="@string/gallery"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btCapturePhoto"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/con_face"
+        android:layout_width="153dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="52dp"
+        android:background="@color/black"
+        android:text="@string/continue_"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btOpenGallery"
+        tools:ignore="MissingConstraints" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="329dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="36dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/con_face"
+        app:layout_constraintVertical_bias="0.098"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="329dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/con_face"
+        app:layout_constraintVertical_bias="0.098"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

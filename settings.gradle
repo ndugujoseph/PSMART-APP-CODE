@@ -1,0 +1,19 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "PSMaRT"
+include ':app'
+include ':java'
+include ':java'
+include ':java'
+include ':OpenCV-android-sdk'
+include ':OpenCV-android-sdk'
+include ':OpenCV-android-sdk'
+include ':OpenCV-android-sdk'
+include ':OpenCV-android-sdk'
+include ':OpenCV-android'

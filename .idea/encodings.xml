@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/jniLibs/arm64-v8a/libZAandroid.so" charset="IBM864" />
+    <file url="file://$PROJECT_DIR$/app/jniLibs/armeabi-v7a/libZAandroid.so" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/jniLibs/armeabi/libZAandroid.so" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/jniLibs/x86/libZAandroid.so" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/jniLibs/x86_64/libZAandroid.so" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libZAandroid.so" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jniLibs/arm64/libZAandroid.so" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libZAandroid.so" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libZAandroid.so" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jniLibs/libZAandroid.so" charset="IBM864" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jniLibs/x28/libZAandroid.so" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jniLibs/x86/libZAandroid.so" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jniLibs/x86_64/libZAandroid.so" charset="UTF-8" />
+  </component>
+</project>
